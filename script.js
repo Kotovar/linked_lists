@@ -164,24 +164,21 @@ class Node {
 }
 
 let list = new LinkedList();
-list.append("Голова").append("После головы");
-list.append("Средний");
-list.append("Перед хвостом");
-list.append("Хвост");
+list.append("1").append("2");
+list.append("3");
+list.append("4");
+list.append("5");
 
-list.prepend("Добавил в начало").prepend("Ещё один - самый первый");
-list.append("Самый последний");
-// console.log(list);
+list.prepend("02").prepend("01");
+list.append("6");
+//console.log(list);
 // console.log(list.getHead());
 // console.log(list.getTail());
 // console.log(list.at(3));
 // list.pop();
-// console.log(list.size());
-// console.log(list.contains("Перед хвостом"));
-// console.log(list.find("Перед хвостом"));
-// console.log(list.toString());
-list.insertAt("НОВЕНЬКИЙ", 8);
+//console.log(list.find("4"));
+console.log(`does the list contain "1"? = ${list.contains("1")}`);
+console.log(`total size = ${list.size()}`);
 console.log(list.toString());
-list.removeAt(2);
-console.log(list.toString());
-console.log(list);
+// list.insertAt("6", 8);
+// list.removeAt(2);
