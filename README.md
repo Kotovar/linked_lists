@@ -2,6 +2,9 @@
 
 This project implements a linked list
 
+![project0](https://github.com/Kotovar/linked_lists/assets/77914431/407102b6-f372-4f73-87ff-f9da2d6bb8d3)
+
+
 ## How to use
 
 Open the file, open the console and run: node script.js
