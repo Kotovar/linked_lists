@@ -38,4 +38,4 @@ This project implements the following methods:
 `removeAt(index)` - removes the node at the given index.
 
 ## Credits
-This project was inspired by [[The Odin Project](https://www.theodinproject.com/lessons/javascript-linked-lists)], which is an open source curriculum for learning web development.
+This project was inspired by [The Odin Project](https://www.theodinproject.com/lessons/javascript-linked-lists), which is an open source curriculum for learning web development.
